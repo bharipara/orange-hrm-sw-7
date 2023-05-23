@@ -1,0 +1,4 @@
+2023-05-22 23:05:109 INFO  HomePage :33 - Enter User name : [[ChromeDriver: chrome on WINDOWS (69d8b92c1727db2bf225c7a2dd8b359f)] -> name: username]
+2023-05-22 23:05:85 INFO  HomePage :38 - Enter password : [[ChromeDriver: chrome on WINDOWS (69d8b92c1727db2bf225c7a2dd8b359f)] -> name: password]
+2023-05-22 23:05:424 INFO  HomePage :42 - Click on login : [[ChromeDriver: chrome on WINDOWS (69d8b92c1727db2bf225c7a2dd8b359f)] -> tag name: button]
+2023-05-22 23:05:172 INFO  DashboardPage :54 - Verify Dashboard msg : [[ChromeDriver: chrome on WINDOWS (69d8b92c1727db2bf225c7a2dd8b359f)] -> xpath: //header/div[1]/div[1]/span[1]/h6[1]]

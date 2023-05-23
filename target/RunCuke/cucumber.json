@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19787082800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify User Should Login SuccessFully",
+        "description": "",
+        "id": "login-test;verify-user-should-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 3550730200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1775522500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username",
+            "match": {
+              "location": "LoginSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 359760000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password",
+            "match": {
+              "location": "LoginSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228632500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on Login Button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2639571800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Verify \"WelCome\" Message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WelCome",
+                  "offset": 10
+                }
+              ],
+              "location": "LoginSteps.iVerifyMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "logintest.feature"
+  }
+]
